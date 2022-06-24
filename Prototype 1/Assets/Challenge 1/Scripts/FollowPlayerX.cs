@@ -1,8 +1,8 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FollowPlayer : MonoBehaviour
+public class FollowPlayerX : MonoBehaviour
 {
     public GameObject player;
     public float xPos = 0;          // variable to store vector3 x position
@@ -21,4 +21,6 @@ public class FollowPlayer : MonoBehaviour
         // Camera position = player position plus cameraOffset
         transform.position = player.transform.position + cameraOffset;
     }
+
+
 }
